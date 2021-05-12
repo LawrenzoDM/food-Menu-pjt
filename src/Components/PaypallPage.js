@@ -5,7 +5,7 @@ import {MyContext} from "../App"
 
 export default function PaypallPage(props) {
 
-    const {back,setBack ,Recipes,setRecipes} = useContext(MyContext)
+    const {back,Recipes} = useContext(MyContext)
     const btn = useRef()
 
     useEffect(() => {
