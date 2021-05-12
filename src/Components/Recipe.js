@@ -1,10 +1,10 @@
-import React,{useState ,useContext} from 'react'
+import React,{useState } from 'react'
 import IngredientSpecs from "./ingredientSpecs"
 import PaypallPage from './PaypallPage';
-import {MyContext} from "../App"
+
 
 const Recipe = ({recipe}) => {
-    //const context = useContext(MyContext)
+    
     const [show,setShow] =useState(false)
     const {label,image,url, ingredients} = recipe.recipe;
     const [buy ,setBuy]= useState(false)
